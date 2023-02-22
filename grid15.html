@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <title>GRID</title>
+    <head>
+<style>
+.container{
+    background-color: red;
+    height: 500px;
+    width: 500px;
+    display: grid;
+    /*grid-template-columns: 133px 133px 133px;
+    grid-template-rows: 133px 133px 133px;*/
+grid-template-columns: 1fr 1fr 1fr;
+grid-template-rows: 1fr 1fr 1fr;
+    row-gap: 20px;
+    column-gap: 20px;
+    padding: 20px;
+
+}
+.item{
+background-color: aqua;
+/*height: 122px;
+width: 122px;*/
+}
+</style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+        </div>
+    </body>
+</html>
